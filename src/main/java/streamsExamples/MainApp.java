@@ -357,12 +357,14 @@ public class MainApp {
 
         isNumInIndex(numbers);
 
+        fibo(10);
+
+        int[][] matrix = {{3, 5, 6, 10}, {1, 2}, {7, 8, 9}};
+        System.out.println(minInMatrix(matrix));
+
         System.out.println(countHighGradeStudents(2010,55));
 
         System.out.println(findTop3Average());
 
-        fibo(10);
-        int[][] matrix = {{3, 5, 6, 10}, {1, 2}, {7, 8, 9}};
-        System.out.println(minInMatrix(matrix));
     }
 }
